@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --allow-env npm:astro dev",
+    "build": "deno run --allow-net --allow-read --allow-write --allow-env npm:astro build",
+    "preview": "deno run --allow-net --allow-read --allow-env npm:astro preview"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "astro/jsx"
+  },
+  "nodeModulesDir": true,
+  "imports": {
+    "astro": "npm:astro@^5.13.5",
+    "@astrojs/tailwind": "npm:@astrojs/tailwind@^6.0.2",
+    "@astrojs/sitemap": "npm:@astrojs/sitemap@^3.5.1",
+    "tailwindcss": "npm:tailwindcss@^3.4.17"
+  }
+}
