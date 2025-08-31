@@ -6,7 +6,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "start": "astro preview",
+    "clean": "powershell -Command \"if (Test-Path dist) { Remove-Item -Recurse -Force dist }\"",
+    "deploy:build": "npm run clean && npm run build",
+    "check": "astro check",
+    "lint": "astro check"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.5.1",
