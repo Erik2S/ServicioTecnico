@@ -1,6 +1,7 @@
 # 🔧 TechService RG - Servicio Técnico Profesional
 
-Sitio web profesional para servicio técnico en Río Grande, Tierra del Fuego.
+Servicio técnico dado por mi para la gente de Río Grande, Tierra del Fuego.
+Sitio web profesional con todas las herramientas modernas.
 
 ## 🚀 Características
 
